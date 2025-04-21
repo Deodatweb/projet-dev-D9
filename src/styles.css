@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #f9d0a3;
+}
+
 h1 {
   font-family: "bubbleboddy_neue";
   font-size: 3.5em;
