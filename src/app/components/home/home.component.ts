@@ -79,7 +79,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    width: 80%;
+    width: 60%;
     padding: 20px;
 }
 
