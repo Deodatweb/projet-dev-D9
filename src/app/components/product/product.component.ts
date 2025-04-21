@@ -52,10 +52,10 @@ img:hover {
 
 /* ===== Responsive Mobile ===== */
 @media (max-width: 768px) {
-    img {
-        width: 300px;
-        height: 300px;
-    }
+  img {
+      width: 300px;
+      height: 300px;
+  }
 }
 `,
 })

@@ -31,90 +31,92 @@ import { Component } from "@angular/core";
   styles: `
 /* ===== Css Global ===== */
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 150px;
-    padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 a {
-    color:#DA001E;
+  color:#DA001E;
 }
 
 p {
-    font-family: 'Comfortaa';
-    font-size: 1.5em;
-    text-align: center;
+  font-family: 'Comfortaa';
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .contact_info {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 1.5em;
 }
 
 .mail {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Comfortaa';
 }
+
 .contact_links {
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    width: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  width: 90%;
 }
 
 img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .spacer {
-    height: 150px;
+  height: 150px;
 }
 
 /* ===== Responsive Tablette (<=1024px) ===== */
 @media (max-width: 1024px) {
-    .contact {
-        padding: 80px;
-    }
+  .contact {
+      padding: 80px;
+  }
 
-    .contact_info {
-        font-size: 1.3em;
-    }
+  .contact_info {
+      font-size: 1.3em;
+  }
 
-    img {
-        width: 40px;
-        height: 40px;
-    }
+  img {
+      width: 40px;
+      height: 40px;
+  }
 }
 
 /* ===== Responsive Mobile (<=768px) ===== */
 @media (max-width: 768px) {
-    .contact {
-        padding: 50px 20px;
-    }
+  .contact {
+      padding: 50px 20px;
+  }
 
-    .contact_info {
-        font-size: 1.1em;
-        gap: 20px;
-    }
+  .contact_info {
+      font-size: 1.1em;
+      gap: 20px;
+  }
 
-    p {
-        font-size: 1.2em;
-    }
+  p {
+      font-size: 1.2em;
+  }
 
-    img {
-        width: 35px;
-        height: 35px;
-    }
+  img {
+      width: 35px;
+      height: 35px;
+  }
 
-    .spacer {
-        height: 100px;
-    }
+  .spacer {
+      height: 100px;
+  }
 }
 `,
 })
