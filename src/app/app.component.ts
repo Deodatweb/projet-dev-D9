@@ -7,20 +7,12 @@ import { FooterComponent } from "./components/footer/footer.component";
   selector: "app-root",
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   template: `
-    <body>
-      <app-header />
-      <router-outlet />
-      <app-footer />
-    </body>
+    <app-header />
+    <router-outlet />
+    <app-footer />
   `,
-  styles: [
-    `
-      body {
-        background-color: #f9d0a3;
-      }
-    `,
-  ],
+  styles: [],
 })
 export class AppComponent {
-  title = "projet-dev-D9";
+  title = "auPetitVillage";
 }
