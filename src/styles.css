@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "bubbleboddy_neue";
+  src: url("font/bubbleboddy_neue/bubbleboddyneue-regular trial.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("font/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "bubbleboddy_neue";
+  font-size: 3.5em;
+  color: #da001e;
+}
