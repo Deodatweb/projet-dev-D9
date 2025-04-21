@@ -12,8 +12,8 @@ import { SortByPricePipe } from "../../pipes/sortByPrice/sort-by-price.pipe";
 
       <div class="presentation">
         <P
-          >“Au petit village” est une entreprise qui confectionne des
-          <strong>figurines</strong> inspirées de la bande dessinée
+          ><span>“Au petit village”</span> est une entreprise qui confectionne
+          des <strong>figurines</strong> inspirées de la bande dessinée
           <strong>Astérix et Obélix</strong>.</P
         >
       </div>
@@ -57,6 +57,10 @@ h1 {
     font-family: 'bubbleboddy_neue';
     font-size: 3.5em;
     color: #DA001E;
+}
+
+p span {
+  font-weight: bold;
 }
 
 .presentation {
