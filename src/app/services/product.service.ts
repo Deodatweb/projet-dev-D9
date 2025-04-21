@@ -31,7 +31,7 @@ export class ProductsService {
     },
     {
       name: "Figurine Bonemine",
-      id: 5,
+      id: 3,
       photo: "./figurine-bonemine-la-femme-du-chef-du-village.jpg",
       price: 35.99,
       description:
@@ -39,7 +39,7 @@ export class ProductsService {
     },
     {
       name: "Figurine Abraracourcix",
-      id: 8,
+      id: 4,
       photo: "./figurine-abraracourcix-le-chef-du-village.jpg",
       price: 32.99,
       description:
