@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from "@angular/core";
 import { Product, ProductsService } from "../../services/product.service";
 import { ProductItemComponent } from "../product-item/product-item.component";
-import { SortByPricePipe } from "../../pipes/sortByprice/sort-by-price.pipe";
+import { SortByPricePipe } from "../../pipes/sortByPrice/sort-by-price.pipe";
 
 @Component({
   selector: "app-home",
