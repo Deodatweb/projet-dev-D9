@@ -21,25 +21,25 @@ import { Component } from "@angular/core";
   styles: `
 /* ========== Css Global ========== */  
 footer {
-    background-color: #151217;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+  background-color: #151217;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 /* ========== Conteneur des icônes ========== */
 .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  width: 10%;
 }
 
 /* ===== Icônes ===== */
 img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 /* ===== Responsive Tablette ===== */

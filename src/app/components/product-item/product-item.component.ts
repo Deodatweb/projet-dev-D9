@@ -21,27 +21,27 @@ import { FormatPricePipe } from "../../pipes/formatPrice/format-price.pipe";
   styles: `
   /* ===== Css Global ===== */
 .product-item {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 8px 8px 5px 0 rgba(0,0,0,0.5);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px 0 rgba(0,0,0,0.5);
 }
 h2 {
   font-family: 'bubbleboddy_neue';
 }
 img {
-    width: 350px;
-    height: 350px;
+  width: 350px;
+  height: 350px;
 }
 
 .product-item_price {
-    font-family: 'Comfortaa', monospace;
-    font-weight: 600;
+  font-family: 'Comfortaa', monospace;
+  font-weight: 600;
 }
 
 a {
-    text-decoration: none;
-    color: #151217;
+  text-decoration: none;
+  color: #151217;
 }
 
 `,

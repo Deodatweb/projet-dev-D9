@@ -8,8 +8,8 @@ import { Component } from "@angular/core";
       <h1 class="title-about">Au Petit Village</h1>
       <div class="about-content">
         <P
-          >“Au petit village” est une entreprise qui confectionne des
-          <strong>figurines</strong> inspirées de la bande dessinée
+          ><span>“Au petit village”</span> est une entreprise qui confectionne
+          des <strong>figurines</strong> inspirées de la bande dessinée
           <strong>Astérix et Obélix</strong>.</P
         >
         <p>
@@ -31,25 +31,27 @@ import { Component } from "@angular/core";
   styles: `
 /* ===== Css Global ===== */  
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 150px;
-    padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
-
 p {
-    font-family: 'Comfortaa';
-    font-size: 1.5em;
-    text-align: justify;
-    
+  font-family: 'Comfortaa';
+  font-size: 1.5em;
+  text-align: justify;   
+}
+
+p span {
+  font-weight: bold;
 }
 
 strong {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /* ===== Responsive Tablette ===== */
